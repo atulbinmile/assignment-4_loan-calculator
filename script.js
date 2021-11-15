@@ -6,7 +6,7 @@ let calculate = () => {
   let results = document.querySelector(".result");
 
   let answer = loan_amount * Math.pow(1 + interest / 100, years);
-  results.innerHTML = `<span>${answer}</span>`;
+  results.innerHTML = `<h3>Final repayment amount = $${answer}</h3>`;
 };
 
 
